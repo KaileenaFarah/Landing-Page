@@ -1,0 +1,115 @@
+body {
+    margin: 30px 300px;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #f2e5cb;
+    display: flex;
+    flex-direction: column;
+}
+
+.title1 {
+    font-family:'Times New Roman' Times, serif;
+    color: #bf625c;
+    text-decoration: none;
+    font-size: 19px;  
+    font-weight: lighter;
+    align-self: center;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+a {
+    font-family:'Times New Roman' Times, serif;
+    color: #bf625c;
+    text-decoration: none;
+    font-size: 16px;  
+    font-weight: lighter;
+    padding: 20px;
+    
+}
+
+.navlinks {
+    display: flex;
+    gap: 3px;
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.nav_cont {
+    display: flex;
+    height: 50px;
+    width: 840px;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    box-shadow: 3px 8px 45px 13px rgba(71, 97, 102, 0.26);
+}
+
+.top_cont {
+    display: flex;
+    width: 840px;
+    height: 400px;
+    background-image: url(images/hideout_big.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(70, 65, 65, 0.5)), url('images/hideout_big.jpg');
+    background-size: 840px 400px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 8px 45px 13px rgba(71, 97, 102, 0.26);
+}
+
+h1, 
+p {
+    font-weight: lighter;
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    padding: 10px 3px 10px;
+}
+
+p {
+    font-size: 22px;   
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-top: -20px;
+}
+
+button {
+    margin: auto;
+}
+
+.mid_cont {
+    display: flex;
+    flex-basis: 400px 840px;
+    width: 840px;
+    height: 400px;
+
+}
+
+.submid_cont {
+    display: flex;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+    
+}
+
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+
